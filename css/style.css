@@ -1,7 +1,7 @@
 /* Variables */
 :root {
     --color-pink: #E53170;
-    --color-blue: #6a95ab;
+    --color-blue: #40a5d9;
     --flex-layout-gap: 10px;
 }
 
@@ -21,6 +21,7 @@ body {
 
 h1 {
     color: var(--color-pink);
+    font-size: 2rem;
 }
 
 p {
@@ -42,13 +43,17 @@ header {
 
 /* Utils */
 .container {
-    max-width: 980px;
+    max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .text-center {
     text-align: center;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
 }
 
 
