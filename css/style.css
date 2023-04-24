@@ -2,6 +2,7 @@
 :root {
     --color-pink: #E53170;
     --color-blue: #6a95ab;
+    --flex-layout-gap: 10px;
 }
 
 /* Reset */
@@ -43,6 +44,17 @@ header {
 }
 
 /* Layout */
+.row {
+    display: flex;
+    margin-left: calc(var(--flex-layout-gap) * -1);
+    margin-right: calc(var(--flex-layout-gap) * -1);
+}
+
+.col {
+    flex-basis: calc(100% / 3);
+    padding: var(--flex-layout-gap);
+    margin-bottom: var(--flex-layout-gap);
+}
 
 
 /*========================================*/
