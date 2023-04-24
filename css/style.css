@@ -20,6 +20,10 @@ h1 {
     color: var(--color-pink);
 }
 
+p {
+    margin-bottom: 1rem;
+}
+
 header {
     height: 100px;
     display: flex;
