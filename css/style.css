@@ -5,12 +5,14 @@
     --flex-layout-gap: 10px;
 }
 
+
 /* Reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 /* General */
 body {
@@ -25,12 +27,18 @@ p {
     margin-bottom: 1rem;
 }
 
+a {
+    color: var(--color-blue);
+    text-decoration: none;
+}
+
 header {
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 /* Utils */
 .container {
@@ -42,6 +50,7 @@ header {
 .text-center {
     text-align: center;
 }
+
 
 /* Layout */
 .row {
@@ -58,3 +67,26 @@ header {
 
 /*========================================*/
 /* Card */
+.card {
+    height: 100px;
+    display: flex;
+    color: #fff;
+    background-color: #000;
+}
+
+.card-img {
+    width: auto;
+    height: 100%;
+}
+
+.card-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-body > h3 {
+    text-transform: uppercase;
+}
