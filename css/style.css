@@ -53,8 +53,8 @@ header {
 .col {
     flex-basis: calc(100% / 3);
     padding: var(--flex-layout-gap);
-    margin-bottom: var(--flex-layout-gap);
 }
 
 
 /*========================================*/
+/* Card */
